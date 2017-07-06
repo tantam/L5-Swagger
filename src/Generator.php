@@ -43,7 +43,7 @@ class Generator
         }
     }
 
-    protected static function appendSecurityDefinisions(string $filename)
+    protected static function appendSecurityDefinisions( $filename)
     {
         $securityConfig = config('l5-swagger.security', []);
 
